@@ -1,4 +1,4 @@
-1. Descargate el repo
+1. Descargate el repo ```https://github.com/gonzaloruizdevilla/workshopdirectivas```
 2. ```npm install``` para descargar las dependencias
 3. Instálate un servidor web y arráncalo, por ejemplo, con ```npm install -g live-server``` y ```live-server```
 4. Abre el navegador
