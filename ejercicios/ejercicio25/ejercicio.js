@@ -24,18 +24,13 @@
     })
     .factory('testDirectiva', function ($compile, $rootScope, $timeout, $q){
       return () => {
-        let scope =  $rootScope.$new();
-        scope.contador = null;
-        var element = $compile('<ejercicio-test on-aumenta="contador=$valor"></ejercicio-test>')(scope);
-        let a = element.find('a')[0];
         $timeout(() => {
-          a.click();
-          a.click();
+
         }, 0, false);
 
         return $q((resolve, reject) => {
           $timeout(()=>{
-            scope.contador === 2 ? resolve(): reject();
+
           },100)
         });
       }
