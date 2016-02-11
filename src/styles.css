@@ -6,7 +6,7 @@ a {
   font-weight: bold;
 }
 
-ejercicio-tarjeta{
+ejercicio-tarjeta, ejercicio-tarjeta4 {
   border: 1px solid green;
   padding: 10px;
   display: block;
