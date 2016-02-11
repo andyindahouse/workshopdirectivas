@@ -12,15 +12,20 @@
 <h2>Resultado</h2>
 <ejercicio-heroes5
   equipo='vm.listadoHeroes'
-  heroe-seleccionado="vm.seleccionado = $heroe"
+  heroe-seleccionado="heroe = $heroe; vm.seleccionado = $heroe"
   ></ejercicio-heroes5>
-  <p>Héroes seleccionado: {{vm.seleccionado.nombre}}</p>
+  <p>Héroe seleccionado:
+    {{vm.seleccionado.nombre}}</p>
+  <p>Héroe seleccionado:
+    {{heroe.nombre}}</p>
 <hr>
 
 <h3>Código ejecutado</h3>
 <pre>
-  &lt;ejercicio-heroes5 equipo='vm.listadoHeroes' heroe-seleccionado="vm.seleccionado = $heroe"&gt;&lt;/ejercicio-heroes5&gt;
+  &lt;ejercicio-heroes5 equipo='vm.listadoHeroes'
+    heroe-seleccionado="heroe = $heroe; vm.seleccionado = $heroe"&gt;&lt;/ejercicio-heroes5&gt;
   Héroe seleccionado: {{"{{"}}vm.seleccionado.nombre}}
+  Héroe seleccionado: {{"{{"}}v}}
 </pre>
 <hr>
 
