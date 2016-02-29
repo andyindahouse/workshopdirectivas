@@ -2,7 +2,7 @@
   angular
     .module('directivas')
     .directive('ejercicioHoy4', function (){
-      const ddo = {
+      const ddo = {   
       };
       return ddo;
     });
